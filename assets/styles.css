@@ -205,7 +205,7 @@ nav.black{background: #fff !important; margin-top: 20px;   transition: .5s;}
 
 .box-1 p{font-size: 14px;}
 .box-2 p{font-size: 14px;}
-.btn-info{left: 0;}
+.btn-info{left: 0; right: 0;bottom: 0px}
 .overview-color h4{font-size: 25px;}
 .amount h4 {font-size: 25px;}
 .opportunity-img img{position: relative;}
