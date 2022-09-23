@@ -1,0 +1,222 @@
+:root{
+	--poppins: 'Poppins', sans-serif;
+	--rubik:'Rubik', sans-serif;;
+}
+
+h1,h2,h3,h4,h5,a,p{font-family: var(--poppins);}
+.navbar{height: 92px; transition: .5s;}
+.navbar li{margin: 7px 29px; line-height: 34px;}
+.navbar a{font-weight: 400; font-size: 13px; color: #3A3A3A; letter-spacing: 0.01em;  font-family: var(--poppins); }
+.navbar a:hover {color: #0F75BC; transition: all 0.8s;}
+.call_button{border: 1px solid #1C75BC; border-radius: 25px;}
+.call_button a{text-decoration: none; margin: 30px; font-weight: 600; font-size: 14px; line-height: 45px; color: #3A3A3A;}
+
+/*-----------------banner------------------------*/
+.banner{background-image: url(../assets/img/banner.png);height: 898px; width: 100%; background-repeat: no-repeat; background-size: cover; position: relative;}
+ .banner::before {
+    content: "";
+  background: linear-gradient(270deg, rgba(49, 49, 49, 0) -70.72%, rgba(8, 12, 16, 0.42) 35.09%, rgba(2, 5, 16, 0.75) 100%);
+    position: absolute;
+    inset: 0;
+}
+.title,.form-box{z-index: 1px; position: relative;}
+.banner h1{font-weight: 600; font-size: 47px; color: #fff;}
+.banner h2{font-weight: 600; font-size: 20px; color: #fff;}
+.banner_box{background: rgba(0, 142, 255, 0.4); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 26px;
+ width: 50%; padding: 15px 17px;; margin: 18px 0px;}
+.banner_box p{font-size: 21px;font-weight: 600; color: #fff; font-family: var(--rubik); margin-top: 21px;}
+.form-box{padding: 50px; background-color: #fff; margin-top: 50%;}
+.red{color: #FF5325;}
+.title1{font-weight: 400;font-size: 15px; color: #fff; font-family: var(--rubik);}
+.title1 p{margin: 25px 70px; }
+.title1 h5{color: #5EB7FF;font-weight: 400; font-size: 12px;}
+.fa-graduation-cap{float: left; font-size: 43px; color: #6D9D31;}
+.form-control{margin: 18px 0px; border: 1px solid #AEAEAE; border-radius: 0;}
+.form-box-center{text-align: center;}
+.form-box-center h2{font-weight: 600; font-size: 17px; font-family: var(--poppins);}
+.btn-primary {width: 100%; background: #6D9D31; box-shadow: 2px 4px 45px rgba(1, 2, 4, 0.26); background: #6D9D31; border: none; border-radius: 0px; padding: 0;}
+.form-box p{font-weight: 600; font-size: 15px; line-height: 22px; margin-top: 11px;}
+
+.dot{position: relative; text-align: center; line-height: 85px; font-size: 27px; float: right; margin-bottom: -85px; height: 100px; background-color: #fff;
+border-radius: 50%; width: 100px; margin: 4px -57px; color: #000; }
+.dot p{color: #1C75BC; position: absolute; left: -55px; top: -23px; font-size: 53px; font-family: var(--rubik);}
+.dot span{ position: absolute; font-size: 12px; top: 36px; left: 39px;}
+
+section{padding: 60px;}
+
+/*---------------Blue Box--------------------------------*/
+.campus h2{background: #0D70BF; text-align: center; font-weight: 600; font-size: 26px; color: #fff; padding: 15px; margin: 0; }
+.campus p{color: #7A7A7A; font-weight: 500;font-size: 15px;}
+.campus h4{color: #0D70BF; font-weight: 500;font-size: 18px;}
+/*.campus-full{border-left: 3px solid #b1b1b152;}*/
+
+.first-border{width: 86%; background-color: #b1b1b1; height: 3px; border: none; margin: 0;}
+.second-border{width: 75%; background-color: #b1b1b1; height: 3px; border: none; margin: auto;}
+.three-border{width: 75%; background-color: #b1b1b1; height: 3px; border: none; margin:0;}
+.campus-pad{  padding: 35px 50px;}
+.campus-img img{margin: 11px; width: 100%;}
+
+.border_1{border-right: 3px solid #b1b1b152; border-left: 3px solid #b1b1b152;}
+.border_3{border-right: 3px solid #b1b1b152; padding: 0; border-left: 0px solid #b1b1b152;}
+
+/*---------------Blue Box--------------------------------*/
+.online h2{background: #6D9D31;; text-align: center; font-weight: 600; font-size: 26px; color: #fff; padding: 15px; margin: 0; border-left: 3px solid #fff;}
+.online p{color: #7A7A7A; font-weight: 500;font-size: 15px;}
+.online h4{color: #6D9D31; font-weight: 500;font-size: 18px;}
+.border_5 span{font-style: italic; font-weight: 500;font-size: 12px; color: #7A7A7A;}
+.first-border_a {width: 86%; background-color: #b1b1b1; height: 3px; border: none; margin: 0; position: relative; left: 25px; margin: 0; }
+
+ .second-border_a {width: 75%; background-color: #b1b1b1; height: 3px; border: none; margin: auto; left: 25%; position: relative; margin: 0; }
+.three-border_a { width: 75%; background-color: #b1b1b1; height: 3px; border: none; margin: auto;}
+.border_4 { border-right: 3px solid #b1b1b152; padding: 0;}
+.border_5{border-right: 3px solid #b1b1b152; }
+
+/*-----------------------Download--------------------------------*/
+.download{text-align: center; background: #F2F2F2;
+box-shadow: 0px 0px 85px rgba(0, 0, 0, 0.03); padding: 30px;}
+.button1 {width: 50%; border: 1px solid #0D70BF; filter: drop-shadow(2px 4px 45px rgba(1, 2, 4, 0.26)); position: relative;}
+.green {border: 1px solid #6D9D31 !important;
+filter: drop-shadow(2px 4px 45px rgba(1, 2, 4, 0.26));}
+.button1  span{padding: 15px; font-weight: 500; font-size: 14px; color: #282828; font-family: var(--poppins);}
+.button1 img{position: absolute;left: 15px; top: 12px;}
+.button1:hover{border: 1px solid #000 !important;}
+/*---------------------Career Opportunity----------------------------*/
+.opportunity {position: relative;   padding: 120px;}
+.opportunity ul {list-style: none;}
+.opportunity h4 {font-weight: 700; font-size: 40px; line-height: 55px; color: #363636; font-family: var(--rubik);}
+.opportunity p {font-weight: 500; font-size: 15px; line-height: 25px; color: #707070; margin-top: 30px;}
+.opportunity li {font-weight: 600; font-size: 17px;line-height: 40px; color: #363636;}
+.opportunity img {margin-right: 10px;}
+/*.opportunity-img{background-image: url(../assets/img/opportunity-img.png);}*/
+.opportunity-img img{position:absolute; right: 0;}
+.ellipse {position:absolute; left: 0;}
+/*------------------pathways---------------------*/
+.pathways{background: #E3F0FB; position: relative;}
+.icon-pad{position: relative;}
+.box-1{background: #0D70BF; border-radius: 9px; padding: 20px;}
+.box-2{background: #FFFFFF; border: 1px solid rgba(105, 127, 143, 0.34); border-radius: 9px;}
+.box-1 p{font-weight: 600;font-size: 18px; line-height: 27px; color: #fff;}
+.box-2 p{font-weight: 500;font-size: 16px; margin-top: 20px; color: #363636;}
+
+/*-----------------overview-----------------------------*/
+.overview{background: #00000038;  border-radius: 20px; margin: 30px 0px; padding: 40px 5px; position: relative;}
+.overview li{font-weight: 500; font-size: 16px; line-height: 35px; color: #fff;}
+.overview-color h4{font-size: 40px;  line-height: 70px; color: #fff; position: relative;}
+.overview-color{background-image: url('../assets/img/img-bg.png');background-repeat: no-repeat; background-size: cover; position: relative;}
+.overview-color::before {content: ""; background-color: #094886f7;position: absolute;inset: 0; }
+.divider {position: absolute;bottom: 0;left: 0;right: 0;width: 100%; height: 100px;}
+
+/*------------------Amount of Training----------------------------*/
+.amount{position: relative; text-align: center;}
+.amount h4{color: #1C75BC; font-weight: 700; font-size: 40px;  margin-top: 50px;}
+.amount p{color: #979797; font-weight: 500; font-size: 13px;}
+.vector_2{background: #EB5B9742 !important;}
+.vector_3{background: rgba(102, 235, 91, 0.24) !important;}
+.vector_4{background: rgba(118, 181, 255, 0.18) !important;}
+.vector_5{background: rgba(109, 109, 109, 0.24) !important;}
+
+
+.digital-a {background: #FFFFFF; box-shadow: 0px 20px 50px rgba(86, 122, 150, 0.23); border-radius: 11px; width: 100%; height: 311px; position: relative; 
+  padding: 115px 0px;margin-top: 30px;}
+.digital-a img:hover{animation: MoveUpDown 1.5s linear infinite;}
+.digital-a .icon{background: #5BD5EB4F; padding: 14px; left: 20px; position: absolute; top: 24px; border-radius: 10px;}
+.digital-a h3 {text-align: left; padding: 6px 27px; color: #212121; font-size: 18px;}
+.digital-a p{text-align: left; padding: 6px 27px; color: #717171; font-size: 13px;}
+
+.certificate li{line-height: 71px !important; font-size: 14px;}
+.certificate h4{color: #1C75BC; font-weight: 700; font-size: 32px;}
+.btn-info{position: absolute;bottom: 122px; left: 405px; background: #1C75BC;border: none; border-radius: 0; padding: 10px 25px;}
+
+/*------------------IHNA Admission Requirements------------------------*/
+.ihna_admission{background-color: #F0F0F0; text-align: center;}
+.ihna_admission h4{color: #1C75BC; font-style: normal; font-weight: 700; font-size: 40px;}
+.ihna_admission p{color: #979797; font-weight: 500; font-size: 13px;}
+
+
+.icon-box{float: left;}
+.icon-box img:hover{animation: MoveUpDown 1.5s linear infinite;}
+.box-ihna{background: #FFFFFF; box-shadow: 0px 0px 25px rgba(160, 195, 223, 0.08); border-radius: 18px; padding: 30px 50px; position: relative; z-index: 2;}
+.box-ihna_b{background: #FFFFFF;box-shadow: 0px 0px 25px rgba(160, 195, 223, 0.08); border-radius: 18px; padding: 30px 83px;}
+.year-box{margin-top: 6rem !important;}
+.description{text-align: left; margin-left: 78px; color: #363636 !important; font-size: 15px !important;}
+
+/*------------------Footer---------------------------*/
+.acknowledgement h4{color: #363636; font-weight: 700; font-size: 35px; font-family: var(--rubik); line-height: 50px;}
+.acknowledgement p{color: #707070; font-weight: 500; font-size: 15px;}
+
+
+.career{background: #0D70BF; padding: 60px;}
+.career h4{font-weight: 700; font-size: 40px; line-height: 45px; color: #fff; font-family: var(--rubik); text-align: center;}
+.career-line{color: #96C7EE}
+
+
+.social {width: 36px;height: 36px;transition: 0.3s;border-radius: 50%;line-height: 2;background: #fff;}
+
+.form-new{border-radius: 0;background-color: #f0f8ff00 !important;color: white !important;border: 1px solid #fff !im;}
+.form-button p{margin: 11px;}
+.footer-box{margin: 60px 0px;}
+.white{color: #fff;}
+.reserved{text-align: center; color: #707070; font-weight: 400; font-size: 13px; padding:0px; margin-top: 20px;}
+.form-new::placeholder {color: #fff !important;opacity: 1; /* Firefox */}
+
+/*------Animated Sticky navbar--------*/
+nav.black{transition: .5s;}
+nav.black{background: #fff !important; margin-top: 20px;   transition: .5s;}
+.fixed-top{width: 100%;background: #fff; }
+
+.anime{animation: MoveUpDown 2s linear infinite;}
+@keyframes MoveUpDown {
+  100%, 0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  }
+
+
+  @media screen and (min-width:320px) and (max-width:760px) {
+    section{padding: 0;}
+/*----------------Header----------------------------*/
+.navbar-expand-lg .navbar-nav .nav-link{padding: 7px 22px;}
+.navbar-collapse {background-color: #fff;border-radius: 10px; -webkit-transition: all 2s;transition: all 2s;}
+.form-box{padding: 20px;}
+.logo{height: 50px;}
+.banner{height: auto;}
+.banner h1{font-size: 30px;}
+.banner h2{font-size: 12px;}
+.banner_box{width: 100%; margin-top: 8px; font-size: 16px; padding: 15px 17px;}
+.banner_box p{font-size: 16px;}
+.title1 p{margin: 10px 55px; font-size: 12px;}
+.dot p{left: -27px;top: -12px;font-size: 34px;}
+.dot span{top: 32px;left: 34px;}
+.dot {line-height: 80px;font-size: 18px;margin-bottom: -85px;height: 90px;width: 90px;margin: 4px -12px;}
+
+
+/*-------- On campus -----------*/
+.border_1{border: 4px solid #ccc;}
+.border_2{border: 4px solid #ccc;}
+
+.button1{width: 100%; margin-top: 10px;}
+.button1 span{font-size: 12px; padding: 18px;}
+/*---------Career-----------*/
+.opportunity{padding: 20px;}
+.opportunity li{font-size: 11px;}
+
+.box-1 p{font-size: 14px;}
+.box-2 p{font-size: 14px;}
+
+.overview-color h4{font-size: 25px;}
+.amount h4 {font-size: 25px;}
+.opportunity-img img{position: relative;}
+.opportunity ul{padding: 0;}
+.ihna_admission h4{font-size: 28px; padding-top: 25px;}
+.box-ihna_b{padding: 19px 3px;}
+.box-ihna{padding: 19px 15px;}
+.anime{display: none;}
+.acknowledgement{margin: 23px 0px;}
+.acknowledgement h4{font-size: 22px;}
+.career{padding: 10px;}
+.career h4{font-size: 20px;}
+.white{margin: 40px;}
+}
